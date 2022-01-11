@@ -13,9 +13,6 @@ background-color:#fff;
 	background-position: left center;
 	color:#E2231B;
 }
-.action-menu a.dropdown-toggle {
-	color:#fff;
-}
 
 .list-group-item.active {
 background-color:#E2231B;	
@@ -61,4 +58,9 @@ background:none;
 color: #fff;
  padding: 0px 1rem;
 }
+
+#page-header .action-menu a.dropdown-toggle {
+	color:#fff;
+}
+
 /* ****************Page header tweaks end *************************** */

@@ -71,7 +71,9 @@ background:none;
 color: #fff;
  padding: 0px 1rem;
 }
-
+.breadcrumb-item+.breadcrumb-item::before {
+color:#fff;
+}
 #page-header .action-menu a.dropdown-toggle {
 	color:#fff;
 }

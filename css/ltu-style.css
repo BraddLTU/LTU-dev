@@ -3,6 +3,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
+.action-menu .dropdown-toggle a {
+	color:#fff;
+}
 a {
 color:#E2231B;
 }
@@ -12,8 +15,7 @@ color:#E2231B;
 }
 .page-header-headings h1, #page-header #page-navbar  {
 color: #fff;
-    background: #E2231B;
-    padding: 0px 1rem;
+ padding: 0px 1rem;
 }
 
 .list-group-item.active {

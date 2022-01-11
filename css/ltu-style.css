@@ -51,6 +51,12 @@ width: calc(100%);
 #page-course-view-grid #blocks-column {
 	display:none;
 }
+
+.fa-graduation-cap {
+content:"f015";	
+}
+
+
 /* ****************Page header tweaks start *************************** */
 #page-header {
 background-image: url(https://braddltu.github.io/LTU-dev/images/header-bg.gif);

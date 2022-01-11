@@ -19,8 +19,12 @@ background-color:#E2231B;
 	border-color:#E2231B;
 }
 
-[data-key*="badgesview"], [data-key*="competencies"] {
+[data-key*="badgesview"], [data-key*="competencies"], [data-key*="participants"] {
 display:none;
+}
+
+.editing [data-key*="participants"] {
+	display:block;
 }
 
 

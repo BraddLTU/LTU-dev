@@ -27,6 +27,13 @@ h1, h2 {
 font-family: 'Roboto Slab',Georgia;
 }
 
+#page-course-view-grid #region-main {
+width: calc(100%);	
+}
+
+#page-course-view-grid #blocks-column {
+	display:none;
+}
 /* ****************Page header tweaks start *************************** */
 #page-header {
 background-image: url(https://braddltu.github.io/LTU-dev/images/header-bg.gif);

@@ -22,6 +22,10 @@ background-color:#E2231B;
 	border-color:#E2231B;
 }
 
+[data-key*="badgesview"] {
+display:none;
+}
+
 .course-content .single-section .navigationtitle {
 display:none;
 }

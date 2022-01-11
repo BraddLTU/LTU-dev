@@ -62,6 +62,13 @@ content:"";
 [data-key*="grades"] .fa-table::before {
 content:"";
 }
+[data-key*="grades"] .fa-table::before {
+content:"";
+}
+
+#nav-drawer [href*="&section=1"] fa-folder::before {
+content:"";
+}
 
 /* ****************Page header tweaks start *************************** */
 #page-header {

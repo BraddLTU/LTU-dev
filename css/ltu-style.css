@@ -8,14 +8,15 @@ color:#E2231B;
 
 .gtopics-0 .sectionname {
 background-color:#fff;
-	background-image:url(https://braddltu.github.io/LTU-dev/images/SVG/home-icon.svg);
-	background-size:25px;
-	background-position: left center;
+	background:none;
 	color:#E2231B;
 	font-size:0.8rem;
-	padding-left:40px;
-	background-repeat: no-repeat;
 	font-weight:normal;
+}
+
+.gtopics-0 .sectionname::before {
+font: normal normal normal 14px/1 FontAwesome;
+content:"";	
 }
 
 .list-group-item.active {

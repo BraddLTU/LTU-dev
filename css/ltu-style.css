@@ -7,10 +7,10 @@ color:#E2231B;
 }
 
 .gtopics-0 .sectionname {
-background-color:none;
+background-color:#fff;
 	background-image:url(https://braddltu.github.io/LTU-dev/images/SVG/home-icon.svg);
 	background-size:40px;
-	background-position: left bottom;
+	background-position: left center;
 	color:#E2231B;
 }
 .action-menu a.dropdown-toggle {

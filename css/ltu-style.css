@@ -2,15 +2,17 @@
 /* LTU Moodle CSS Overide Document */
 
 a {
-color:#004B56;
+color:#E2231B;
 }
 .page-header-headings h1 {
-color:#004B56;
+color: #fff;
+    background: #E2231B;
+    padding: 0px 1rem;
 }
 
 .list-group-item.active {
-background-color:#004B56;	
-	border-color:#004B56;
+background-color:#E2231B;	
+	border-color:#E2231B;
 }
 
 .course-content .single-section .navigationtitle {

@@ -12,11 +12,13 @@ background-color:#fff;
 	color:#E2231B;
 	font-size:0.8rem;
 	font-weight:normal;
+	padding:0px;
 }
 
 .gtopics-0 .sectionname::before {
 font: normal normal normal 14px/1 FontAwesome;
-content:"";	
+content:"";
+padding-right:1rem;
 }
 
 .list-group-item.active {

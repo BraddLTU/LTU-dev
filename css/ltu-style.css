@@ -53,7 +53,7 @@ width: calc(100%);
 }
 
 .fa-graduation-cap::before {
-content:"f015";	
+content:"";	
 }
 
 

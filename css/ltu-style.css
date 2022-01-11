@@ -23,9 +23,9 @@ background-color:#E2231B;
 display:none;
 }
 
-.editing [data-key*="participants"] {
+/*.editing [data-key*="participants"] {
 	display:block;
-}
+}*/
 
 
 .course-content .single-section .navigationtitle {

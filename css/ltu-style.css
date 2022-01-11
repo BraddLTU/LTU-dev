@@ -28,3 +28,7 @@ display:none;
 h1, h2 {
 font-family: 'Roboto Slab',Georgia;
 }
+
+#page-header {
+background-image: url(https://braddltu.github.io/LTU-dev/images/SVG/ltu-banner.svg)no-repeat;
+}

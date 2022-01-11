@@ -1,10 +1,16 @@
 @charset "utf-8";
 /* LTU Moodle CSS Overide Document */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 a {
 color:#E2231B;
 }
-.page-header-headings h1 {
+
+#page-header #page-navbar a {
+	color:#fff;
+}
+.page-header-headings h1, #page-header #page-navbar  {
 color: #fff;
     background: #E2231B;
     padding: 0px 1rem;
@@ -17,4 +23,8 @@ background-color:#E2231B;
 
 .course-content .single-section .navigationtitle {
 display:none;
+}
+
+h1, h2 {
+font-family: 'Roboto Slab',Georgia;
 }

@@ -13,7 +13,7 @@ background-color:none;
 	background-position: left bottom;
 	color:#E2231B;
 }
-.action-menu .dropdown-toggle a {
+.action-menu a.dropdown-toggle {
 	color:#fff;
 }
 

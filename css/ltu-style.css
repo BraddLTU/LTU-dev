@@ -36,3 +36,8 @@ background-image: url(https://braddltu.github.io/LTU-dev/images/header-bg.gif);
 #page-header .card {
 background:none;	
 }
+
+.gtopics-0 .sectionname {
+background:none;
+	color:#E2231B;
+}

@@ -7,4 +7,5 @@ color:#004B56;
 
 .list-group-item.active {
 background-color:#004B56;	
+	border-color:#004B56;
 }

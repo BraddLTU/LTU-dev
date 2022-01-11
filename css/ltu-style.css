@@ -53,10 +53,13 @@ width: calc(100%);
 	display:none;
 }
 
-.fa-graduation-cap::before {
+[data-key*="coursehome"] .fa-graduation-cap::before {
 content:"";	
 }
 
+[data-key*="grades"] .fa-table::before {
+content:"";
+}
 
 /* ****************Page header tweaks start *************************** */
 #page-header {

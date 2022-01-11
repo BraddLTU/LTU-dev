@@ -27,6 +27,10 @@ display:none;
 	display:block;
 }*/
 
+#nav-drawer [href*="&section=0"] {
+	display:none;
+}
+
 
 .course-content .single-section .navigationtitle {
 display:none;

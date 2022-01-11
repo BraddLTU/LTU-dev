@@ -1,6 +1,9 @@
 @charset "utf-8";
 /* LTU Moodle CSS Overide Document */
 
+a {
+color:#004B56;
+}
 .page-header-headings h1 {
 color:#004B56;
 }

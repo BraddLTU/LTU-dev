@@ -79,9 +79,6 @@ content:"";
 content:"";
 }
 
-#gridiconcontainer ul.gridicons li div.icon_content {
-	background-color:#53565A;
-}
 
 /* ****************Page header tweaks start *************************** */
 #page-header {
@@ -112,3 +109,14 @@ color:#fff;
 }
 
 /* ****************Page header tweaks end *************************** */
+
+#gridiconcontainer ul.gridicons li div.icon_content {
+	background-color:#fff;
+	color:#53565A;
+}
+
+#gridiconcontainer ul.gridicons li .image_holder {
+	border:none;
+	box-show:none;
+	-webkit-box-shadow:none;
+}

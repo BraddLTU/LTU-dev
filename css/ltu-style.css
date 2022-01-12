@@ -63,16 +63,13 @@ content:"";
 [data-key*="grades"] .fa-table::before {
 content:"";
 }
-[data-key*="grades"] .fa-table::before {
-content:"";
-}
 
 #nav-drawer [href$="&section=1"] .fa-folder-o::before {
-content:"";
+content:"\f135";
 }
 
 #nav-drawer [href$="&section=2"] .fa-folder-o::before {
-content:"";
+content:"\f14a";
 }
 
 #nav-drawer [href$="&section=3"] .fa-folder-o::before {

@@ -145,15 +145,23 @@ color:#E2231B;
 	background:none;
 }
 
-#gridiconcontainer #gridsection-1 {
-	background-image:url(https://braddltu.github.io/LTU-dev/images/SVG/launch.svg);
+#gridiconcontainer .gridicon_link {
 	background-size:30%;
 	background-position:center;
 	background-repeat:no-repeat;
 	background-color:transparent;
 }
 
-#gridsection-1 .image_holder img {
+
+#gridiconcontainer #gridsection-1 {
+	background-image:url(https://braddltu.github.io/LTU-dev/images/SVG/launch.svg);
+}
+
+#gridiconcontainer #gridsection-2 {
+	background-image:url(https://braddltu.github.io/LTU-dev/images/SVG/assessment.svg);
+}
+
+#gridsection-1 .image_holder img, #gridsection-1 .image_holder img {
 display:none;	
 }
 

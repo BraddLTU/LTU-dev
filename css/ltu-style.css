@@ -76,7 +76,7 @@ content:"";
 }
 
 #nav-drawer [href$="&section=3"] .fa-folder-o::before {
-content:"";
+content:"\f51c";
 }
 
 

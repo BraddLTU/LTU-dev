@@ -70,6 +70,10 @@ content:"";
 content:"";
 }
 
+#gridiconcontainer ul.gridicons li div.icon_content {
+	background-color:#53565A;
+}
+
 /* ****************Page header tweaks start *************************** */
 #page-header {
 background-image: url(https://braddltu.github.io/LTU-dev/images/header-bg.gif);

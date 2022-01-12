@@ -70,6 +70,10 @@ content:"";
 content:"";
 }
 
+#nav-drawer [href$="&section=2"] .fa-folder-o::before {
+content:"";
+}
+
 #gridiconcontainer ul.gridicons li div.icon_content {
 	background-color:#53565A;
 }

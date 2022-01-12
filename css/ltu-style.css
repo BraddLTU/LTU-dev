@@ -74,6 +74,7 @@ content:"";
 #page-header {
 background-image: url(https://braddltu.github.io/LTU-dev/images/header-bg.gif);
 padding:0;
+background-color:#E2231B;
 }
 
 #page-header .card {

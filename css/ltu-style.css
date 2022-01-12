@@ -74,6 +74,7 @@ content:"\f14a";
 
 #nav-drawer [href$="&section=3"] .fa-folder-o::before {
 content:"\f51c";
+font: normal normal normal 14px/1 FontAwesome;
 }
 
 

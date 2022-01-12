@@ -110,11 +110,16 @@ color:#fff;
 
 /* ****************Page header tweaks end *************************** */
 
+#gridiconcontainer {
+	margin-top:2rem;
+	text-align:left;
+}
 
 #gridiconcontainer::before {
-	content:'Learning Topics';
+	content:'Learning Materials';
 	font-size:1.5rem;
 	font-family: 'Roboto Slab',Georgia;
+	border-bottom: 1px solid #ccc;
 }
 #gridiconcontainer ul.gridicons li div.icon_content {
 	background-color:#fff;

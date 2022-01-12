@@ -117,9 +117,10 @@ color:#fff;
 
 #gridiconcontainer::before {
 	content:'Learning Materials';
-	font-size:1.5rem;
+	font-size:1.4rem;
 	font-family: 'Roboto Slab',Georgia;
 	border-bottom: 1px solid #ccc;
+	font-weight:700;
 }
 #gridiconcontainer ul.gridicons li div.icon_content {
 	background-color:#fff;

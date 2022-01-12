@@ -76,7 +76,7 @@ content:"";
 }
 
 #nav-drawer [href$="&section=3"] .fa-folder-o::before {
-content:"";
+content:"";
 }
 
 
@@ -146,7 +146,7 @@ color:#E2231B;
 }
 
 #gridiconcontainer .gridicon_link {
-	background-size:40%;
+	background-size:30%;
 	background-position:center;
 	background-repeat:no-repeat;
 	background-color:transparent;

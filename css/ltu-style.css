@@ -142,9 +142,10 @@ color:#E2231B;
 	border:none;
 	box-show:none;
 	-webkit-box-shadow:none;
+	background:none;
 }
 
-#gridiconcontainer ul.gridicons li div#gridsection-1 {
+#gridiconcontainer #gridsection-1 {
 	background-image:url(https://braddltu.github.io/LTU-dev/images/SVG/launch.svg);
 	background-size:30%;
 	background-position:center;

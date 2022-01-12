@@ -110,6 +110,12 @@ color:#fff;
 
 /* ****************Page header tweaks end *************************** */
 
+
+#gridiconcontainer::before {
+	content:'Learning Topics';
+	font-size:1.5rem;
+	font-family: 'Roboto Slab',Georgia;
+}
 #gridiconcontainer ul.gridicons li div.icon_content {
 	background-color:#fff;
 	color:#E2231B;

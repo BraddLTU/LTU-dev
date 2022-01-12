@@ -116,12 +116,6 @@ color:#fff;
 }
 
 
-#gridiconcontainer ul.gridicons li div#gridsection-1 {
-	background-image:url(https://braddltu.github.io/LTU-dev/images/SVG/launch.svg);
-	background-size:30%;
-	background-position:center;
-	background-repeat:no-repeat;
-}
 
 #gridiconcontainer::before {
 	content:'Learning Materials';
@@ -149,3 +143,16 @@ color:#E2231B;
 	box-show:none;
 	-webkit-box-shadow:none;
 }
+
+#gridiconcontainer ul.gridicons li div#gridsection-1 {
+	background-image:url(https://braddltu.github.io/LTU-dev/images/SVG/launch.svg);
+	background-size:30%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-color:transparent;
+}
+
+#gridiconcontainer ul.gridicons li div#gridsection-1 .image_holder img {
+display:none;	
+}
+

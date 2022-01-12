@@ -116,6 +116,10 @@ color:#fff;
 	text-align:center;
 }
 
+#gridiconcontainer ul.gridicons li div.icon_content::after {
+color:#E2231B;	
+}
+
 #gridiconcontainer ul.gridicons li .image_holder {
 	border:none;
 	box-show:none;

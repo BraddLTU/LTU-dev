@@ -71,13 +71,9 @@ content:"\f135";
 #nav-drawer [href$="&section=2"] .fa-folder-o::before {
 content:"\f14a";
 }
-#nav-drawer [href$="&section=3"] .fa-folder-o {
-display: inline-block;
-font: normal normal normal 14px/1 FontAwesome;
-text-rendering: auto;
-}
+
 #nav-drawer [href$="&section=3"] .fa-folder-o::before {
-content:"\f51c";
+content:"\f079";
 }
 
 

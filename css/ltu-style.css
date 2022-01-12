@@ -55,6 +55,7 @@ width: calc(100%);
 	display:none;
 }
 
+
 [data-key*="coursehome"] .fa-graduation-cap::before {
 content:"";	
 }
@@ -72,6 +73,10 @@ content:"";
 
 #nav-drawer [href$="&section=2"] .fa-folder-o::before {
 content:"";
+}
+
+#nav-drawer [href$="&section=4"] .fa-folder-o::before {
+content:"";
 }
 
 #gridiconcontainer ul.gridicons li div.icon_content {

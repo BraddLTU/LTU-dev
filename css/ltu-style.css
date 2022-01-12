@@ -124,6 +124,9 @@ color:#fff;
 
 #gridiconcontainer ul.gridicons li div.icon_content::after {
 color:#E2231B;	
+	position:relative;
+	right:0px;
+	padding-left:8px;
 }
 
 #gridiconcontainer ul.gridicons li .image_holder {

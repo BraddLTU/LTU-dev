@@ -5,7 +5,7 @@
 a {
 color:#E2231B;
 }
-
+/*
 .gtopics-0 .sectionname {
 background-color:#fff;
 	background:none;
@@ -29,11 +29,11 @@ background-color:#E2231B;
 [data-key*="badgesview"], [data-key*="competencies"], [data-key*="participants"] {
 display:none;
 }
-
+*/
 /*.editing [data-key*="participants"] {
 	display:block;
 }*/
-
+/*
 #nav-drawer [href*="&section=0"] {
 	display:none;
 }
@@ -75,9 +75,10 @@ content:"\f14a";
 #nav-drawer [href$="&section=3"] .fa-folder-o::before {
 content:"\f079";
 }
-
+*/
 
 /* ****************Page header tweaks start *************************** */
+/*
 #page-header {
 background-image: url(https://braddltu.github.io/LTU-dev/images/header-bg.gif);
 padding:0;
@@ -104,9 +105,9 @@ color:#fff;
 #page-header .action-menu a.dropdown-toggle {
 	color:#fff;
 }
-
+/*
 /* ****************Page header tweaks end *************************** */
-
+/*
 #gridiconcontainer {
 	margin-top:2rem;
 	text-align:left;
@@ -157,3 +158,4 @@ color:#E2231B;
 display:none;	
 }
 
+*/

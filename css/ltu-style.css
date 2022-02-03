@@ -6,4 +6,12 @@
 a {
 color:#004B56;
 }
+.page-header-headings h1 {
+color:#242424;
+	
+}
+
+h1, h2 {
+font-family: 'Roboto Slab',Georgia;
+}
 

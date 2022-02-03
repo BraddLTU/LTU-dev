@@ -32,10 +32,18 @@ h4 {
 color:#242424;
 }
 
+
 .gtopics-0 .sectionname {
 	background:none;
 	color:#242424;
 	padding-left:0px;
+}
+
+/*****  navigation *****/
+
+.list-group-item:active {
+    background-color: #E2231B ;
+    border-color: #E2231B;	
 }
 
 

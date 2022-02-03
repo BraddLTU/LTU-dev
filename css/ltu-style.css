@@ -22,6 +22,10 @@ color:#242424;
 text-decoration:none;	
 }
 
+.menubar a {
+	color:#242424;
+}
+
 /**********  headings ****************/
 h1, h2, h3 {
 font-family: 'Roboto Slab',Georgia;

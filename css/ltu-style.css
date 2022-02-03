@@ -51,7 +51,7 @@ color:#242424;
 
 /*****  navigation *****/
 
-.list-group-item:active {
+.list-group-item.active {
     background-color: #E2231B ;
     border-color: #E2231B;	
 }

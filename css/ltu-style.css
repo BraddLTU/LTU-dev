@@ -14,11 +14,11 @@ a:hover, a:focus {
 	color:#E2231B;
 }
 
-.breadcrumb-item a {
+#page .breadcrumb-item a {
 color:#242424;	
 }
 
-section-navigation a {
+#page .section-navigation a {
 text-decoration:none;	
 }
 

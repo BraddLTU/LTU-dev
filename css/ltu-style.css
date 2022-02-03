@@ -3,6 +3,8 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/***** Links ****/
 #page a {
 color:#E2231B ;
 text-decoration:underline;
@@ -10,6 +12,14 @@ text-decoration:underline;
 
 a:hover, a:focus {
 	color:#E2231B;
+}
+
+.breadcrumb-item a {
+color:#242424;	
+}
+
+section-navigation a {
+text-decoration:none;	
 }
 
 /**********  headings ****************/

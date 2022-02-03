@@ -7,6 +7,10 @@ a {
 color:#00262E;
 }
 
+a:hover {
+	color:#004F59;
+}
+
 /**********  headings ****************/
 h1, h2, h3 {
 font-family: 'Roboto Slab',Georgia;

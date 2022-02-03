@@ -3,7 +3,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-a {
+#page a {
 color:#E2231B ;
 text-decoration:underline;
 }
@@ -37,5 +37,7 @@ color:#00262E;
 	color:#242424;
 	padding-left:0px;
 }
+
+
 
 

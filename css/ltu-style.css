@@ -4,11 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 a {
-color:#00262E;
+color:#E2231B ;
+text-decoration:underline;
 }
 
-a:hover {
-	color:#004F59;
+a:hover, a:focus {
+	color:#E2231B;
 }
 
 /**********  headings ****************/

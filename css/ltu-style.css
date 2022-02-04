@@ -64,6 +64,58 @@ color:#242424;
 display:none;
 }
 
+#gridiconcontainer {
+	margin-top:2rem;
+	text-align:left;
+}
+
+#gridiconcontainer ul.gridicons li div.icon_content {
+	background-color:#fff;
+	color:#242424;
+	text-align:center;
+}
+
+#gridiconcontainer ul.gridicons li div.icon_content::after {
+color:#E2231B;	
+	position:relative;
+	right:0px;
+	top:0px!important;
+	padding-left:8px;
+}
+
+#gridiconcontainer ul.gridicons li .image_holder {
+	border:none;
+	box-show:none;
+	-webkit-box-shadow:none;
+	background:none;
+}
+
+#gridiconcontainer .gridicon_link {
+	background-size:30%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-color:transparent;
+}
+
+
+#gridiconcontainer #gridsection-1 {
+	background-image:url(https://braddltu.github.io/LTU-dev/images/SVG/launch.svg);
+}
+
+#gridiconcontainer #gridsection-2 {
+	background-image:url(https://braddltu.github.io/LTU-dev/images/SVG/assessment.svg);
+}
+
+#gridiconcontainer #gridsection-4 {
+	background-image:url(https://braddltu.github.io/LTU-dev/images/SVG/week-1.svg);
+}
+
+#gridsection-1 .image_holder img, #gridsection-2 .image_holder img, #gridsection-4 .image_holder img {
+display:none;	
+}
+
+
+
 
 
 

@@ -62,3 +62,9 @@ color:#242424;
 display:none;
 }
 
+/******* Grid Icon ******/
+
+#gridiconcontainer ul.gridicons li .image_holder {
+width:210px;
+}
+

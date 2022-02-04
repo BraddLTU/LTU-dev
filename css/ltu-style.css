@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 /***** Links ****/
-#page-content a {
+#region-main a {
 color:#E2231B ;
 text-decoration:underline;
 }

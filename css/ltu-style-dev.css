@@ -59,6 +59,10 @@ color:#242424;
 padding: 0.25rem 1.25rem;	
 }
 
+#page-header .card {
+	border:none;
+}
+
 /*****  navigation *****/
 
 .list-group-item.active {

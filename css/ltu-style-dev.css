@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* LTU Moodle CSS Overide Document */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/***** Links ****/
+#region-main a {
+color:#E2231B ;
+text-decoration:underline;
+}
+
+a:hover, a:focus {
+	color:#E2231B;
+}
+
+#page .breadcrumb-item a {
+color:#242424;	
+}
+
+#page .section-navigation a {
+text-decoration:none;	
+}
+
+
+
+/**********  headings ****************/
+h1, h2, h3 {
+font-family: 'Roboto Slab',Georgia;
+}
+.page-header-headings h1 {
+color:#242424;
+font-size:1.5rem;	
+}
+h2 {
+	font-size:1.4rem;
+}
+
+h3 {
+	font-size:1.3rem;
+}
+h4 {
+	font-size:1.2rem;
+color:#242424;
+}
+
+
+.gtopics-0 .sectionname {
+	background:none;
+	color:#242424;
+	padding-left:0px;
+}
+
+/*****  navigation *****/
+
+.list-group-item.active {
+    background-color: #E2231B ;
+    border-color: #E2231B;	
+}
+
+.course-content .single-section .navigationtitle {
+display:none;
+}
+

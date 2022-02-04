@@ -63,6 +63,19 @@ padding: 0.25rem 1.25rem;
 	border:none;
 }
 
+@media (max-width: 767.98px)
+	.breadcrumb:not(:empty) {
+	border:none;	
+}
+
+.no-overflow {
+    overflow: hidden;
+}
+
+#gridiconcontainer ul.gridicons {
+	justify-content:center !important;
+}
+
 /*****  navigation *****/
 
 .list-group-item.active {

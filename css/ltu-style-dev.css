@@ -67,6 +67,7 @@ display:none;
 #gridiconcontainer ul.gridicons li .image_holder {
 width:100%;
 	height:100%;
+	tesxt-align:left;
 }
 #gridiconcontainer ul.gridicons li .image_holder:after {
 content: "";

@@ -84,3 +84,8 @@ content: "";
 max-width:210px;
 }
 
+#gridiconcontainer ul.gridicons li div.icon_content {
+background:none;
+color:#242424;	
+}
+

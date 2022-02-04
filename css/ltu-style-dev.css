@@ -80,3 +80,7 @@ content: "";
   height: 100%;	
 }
 
+#gridiconcontainer ul.gridicons li {
+max-width:210px;
+}
+

@@ -14,7 +14,7 @@ a:hover, a:focus {
 	color:#E2231B;
 }
 
-.action-menu a {
+#region-main .action-menu a {
 color:#242424;		
 }
 

@@ -14,6 +14,10 @@ a:hover, a:focus {
 	color:#E2231B;
 }
 
+.action-menu a {
+color:#242424;		
+}
+
 #page .breadcrumb-item a {
 color:#242424;	
 }

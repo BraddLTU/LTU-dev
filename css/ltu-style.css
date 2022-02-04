@@ -5,22 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 /***** Links ****/
-#region-main a {
-color:#E2231B ;
-text-decoration:underline;
-}
 
-a:hover, a:focus {
-	color:#E2231B;
-}
 
-#page .breadcrumb-item a {
-color:#242424;	
-}
 
-#page .section-navigation a {
-text-decoration:none;	
-}
+
 
 
 

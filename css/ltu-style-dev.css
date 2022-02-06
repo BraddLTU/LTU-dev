@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
+.atto-styles-caption-text {
+	font-size:0.8rem;
+}
+
 /***** Links ****/
 #region-main a {
 color:#E2231B ;

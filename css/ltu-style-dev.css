@@ -128,6 +128,9 @@ background-color: #f3f3f3 !important;
 background:none;
 color:#242424;	
 }
+#gridiconcontainer ul.gridicons li div.icon_content:after {
+color:#242424;	
+}
 
 
 

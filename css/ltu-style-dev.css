@@ -99,6 +99,9 @@ display:none;
 #gridiconcontainer ul.gridicons li .image_holder {
 width:190px;
 	text-align:left;
+	 -webkit-box-shadow: none;
+    box-shadow:none; 
+     border-radius: 0; 
 }
 #gridiconcontainer ul.gridicons li .image_holder:after {
 content: "";
@@ -120,6 +123,5 @@ max-width:190px;
 background:none;
 color:#242424;	
 }
-
 
 

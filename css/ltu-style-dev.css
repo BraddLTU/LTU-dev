@@ -117,6 +117,7 @@ content: "";
 
 #gridiconcontainer ul.gridicons li {
 max-width:210px;
+background: #f3f3f3;
 }
 
 #gridiconcontainer ul.gridicons li div.icon_content {

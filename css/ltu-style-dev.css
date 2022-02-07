@@ -121,7 +121,7 @@ background: #f3f3f3;
 }
 
 #gridiconcontainer ul.gridicons li.currentselected {
-background: #f3f3f3;	
+background-color: #f3f3f3 !important;	
 }
 
 #gridiconcontainer ul.gridicons li div.icon_content {

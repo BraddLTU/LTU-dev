@@ -9,15 +9,15 @@
 }
 
 /***** Links ****/
-#region-main a {
+#region-main p a {
 color:#E2231B ;
 text-decoration:underline;
 }
 
-a:hover, a:focus {
+p a:hover, p a:focus {
 	color:#E2231B;
 }
-
+/*
 #region-main .action-menu a {
 color:#242424;		
 }
@@ -29,6 +29,7 @@ color:#242424;
 #page .section-navigation a {
 text-decoration:none;	
 }
+*/
 
 
 
@@ -118,8 +119,5 @@ background:none;
 color:#242424;	
 }
 
-/* H5P styles */
-.h5peditor .ui-dialog .h5p-joubelui-button, .h5peditor .h5p-joubelui-button, .h5p-joubelui-button {
-	background:#00262E;
-}
+
 

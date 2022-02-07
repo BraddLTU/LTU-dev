@@ -118,3 +118,8 @@ background:none;
 color:#242424;	
 }
 
+/* H5P styles */
+.h5peditor .ui-dialog .h5p-joubelui-button, .h5peditor .h5p-joubelui-button, .h5p-joubelui-button {
+	background:#00262E;
+}
+

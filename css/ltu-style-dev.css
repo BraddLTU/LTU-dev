@@ -101,7 +101,7 @@ width:100%;
 	text-align:left;
 -webkit-box-shadow: 0 0 5px rgba(0,0,0,.0); 
 box-shadow: 0 0 5px rgba(0,0,0,.0); 
-border-radius: 0; 
+border-radius: 10px; 
 }
 #gridiconcontainer ul.gridicons li .image_holder:after {
 content: "";

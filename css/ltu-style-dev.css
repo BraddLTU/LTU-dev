@@ -143,6 +143,6 @@ color:#242424;
 }
 
 [aria-expanded|="true"] .fa-chevron-down:before {
-    content: "/f077";
+    content: "\f077";
 }
 

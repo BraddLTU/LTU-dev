@@ -135,5 +135,11 @@ color:#242424;
 color:#242424;	
 }
 
+/************ Accordion ********/
+.accordion .btn:focus, .accordion .btn.focus {
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 .2rem #ededed;
+     box-shadow: 0 0 0 .2rem #ededed; 
+}
 
 

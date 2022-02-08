@@ -142,4 +142,7 @@ color:#242424;
      box-shadow: 0 0 0 .2rem #ededed; 
 }
 
+[aria-expanded|="true"] .fa-chevron-down:before {
+    content: "/f077";
+}
 

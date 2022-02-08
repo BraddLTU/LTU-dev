@@ -141,6 +141,11 @@ color:#242424;
     -webkit-box-shadow: 0 0 0 .2rem #ededed;
      box-shadow: 0 0 0 .2rem #ededed; 
 }
+.accordion-toggle-icon {
+position: absolute;
+    left: 16px;
+    font-size: 0.8rem;
+}
 
 [aria-expanded|="true"] .fa-chevron-right:before {
     content: "\f078";

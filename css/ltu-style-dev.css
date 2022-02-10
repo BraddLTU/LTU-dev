@@ -96,7 +96,6 @@ display:none;
 
 #gridiconcontainer ul.gridicons {
 	justify-content:center !important;
-	background-color: #f3f3f3 !important;
 }
 
 
@@ -105,7 +104,9 @@ width:100%;
 	text-align:left;
 -webkit-box-shadow: 0 0 5px rgba(0,0,0,.0); 
 box-shadow: 0 0 5px rgba(0,0,0,.0); 
-border-radius: 10px; 
+    border-color: #dddddd;
+    border-width: 1px;
+    border-radius: 4px;
 }
 #gridiconcontainer ul.gridicons li .image_holder:after {
 content: "";
@@ -121,15 +122,16 @@ content: "";
 
 #gridiconcontainer ul.gridicons li {
 max-width:210px;
-background: #f3f3f3;
+
 }
 
+ 
 #gridiconcontainer ul.gridicons li.currentselected {
-background-color: #f3f3f3 !important;	
+background-color: #ffffff !important;	
 }
 
 #gridiconcontainer ul.gridicons li div.icon_content {
-background:none;
+background-color: #f3f3f3;
 color:#242424;	
 }
 #gridiconcontainer ul.gridicons li div.icon_content:after {

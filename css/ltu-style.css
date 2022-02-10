@@ -14,7 +14,7 @@
 
 /**********  headings ****************/
 h1, h2, h3 {
-font-family: 'Roboto Slab',Georgia;
+/*font-family: 'Roboto Slab',Georgia;*/
 }
 .page-header-headings h1 {
 color:#242424;

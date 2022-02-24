@@ -11,7 +11,7 @@
 /***** Links ****/
 .content a {
 color:#E2231B ;
-text-decoration:underline;
+
 }
 
 
@@ -21,7 +21,7 @@ p a:hover, p a:focus {
 
 .content .action-menu a {
 color:#242424;	
-	text-decoration:underline;
+
 }
 /*
 #page .breadcrumb-item a {

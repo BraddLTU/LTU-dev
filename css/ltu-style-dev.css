@@ -9,7 +9,7 @@
 }
 
 /***** Links ****/
-#region-main p a, .gtopics .label li a {
+.content a {
 color:#E2231B ;
 text-decoration:underline;
 }

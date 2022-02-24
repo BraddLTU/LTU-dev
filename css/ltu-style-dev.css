@@ -14,14 +14,16 @@ color:#E2231B ;
 text-decoration:underline;
 }
 
+
 p a:hover, p a:focus {
 	color:#E2231B;
 }
-/*
-#region-main .action-menu a {
-color:#242424;		
-}
 
+.content .action-menu a {
+color:#242424;	
+	text-decoration:underline;
+}
+/*
 #page .breadcrumb-item a {
 color:#242424;	
 }

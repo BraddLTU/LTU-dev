@@ -162,9 +162,9 @@ position: absolute;
 
 /********* Right Drawer Toggle  *******/
 #right-block-open {
-	position:fixed;
-	top:268px;
-	right:0px;
+	position:absolute;
+	top:0px;
+	right:-16px;
 	background:#ccc;
 	z-index:9999;
 	border-radius:15px 0px 0px 15px;

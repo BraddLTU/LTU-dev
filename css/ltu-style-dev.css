@@ -160,3 +160,13 @@ position: absolute;
     content: "\f078";
 }
 
+/********* Right Drawer Toggle  *******/
+#right-block-open {
+	position:fixed;
+	top:130px;
+	right:0px;
+	background:#ccc;
+	z-index:9999;
+}
+
+

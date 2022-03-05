@@ -171,5 +171,15 @@ position: absolute;
 	padding:1rem;
 }
 
+.oep-dev-block {
+	border:0px;
+}
 
+.oep-dev-block .card-body {
+padding:0px !important;	
+}
+
+.oep-dev-block .block-controls {
+	display:hidden;
+}
 

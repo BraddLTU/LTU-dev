@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<!--------- Working example manual close every page refresh --------->
+	<link type="text/css" rel="stylesheet" href="https://braddltu.github.io/LTU-dev/css/ltu-style-dev.css" />
+<a id="right-block-toggle" class="btn" role="button" href="javascript:;" onclick="addOpenBlock();document.getElementById('region-main').classList.remove('has-blocks');document.getElementById('block-region-side-pre').classList.add('collapse');" aria-label="Close"><i class="icon fa fa-times fa-fw" aria-hidden="true"></i></a>
+						<script type="application/javascript">
+		function addOpenBlock() {
+		var blockOpen = document.createElement("div"); 
+		var blockOpenHtml = document.createElement("a");
+		var faIconHtml = document.createElement("i");
+		blockOpenHtml.href ="javascript:;";
+		blockOpenHtml.setAttribute("id", "right-block-open-btn");
+		blockOpen.setAttribute("id", "right-block-open");
+		faIconHtml.setAttribute("class", "fa fa-chevron-left");	
+		faIconHtml.setAttribute("aria-hidden", "true");
+		blockOpen.appendChild(blockOpenHtml); 
+		blockOpenHtml.appendChild(faIconHtml); 	
+	    document.getElementById("region-main").appendChild(blockOpen);
+		document.getElementById("right-block-open-btn").setAttribute("onclick", "removeOpenBlock();");
+		}
+		function removeOpenBlock() {
+			var blockOpenRemove = document.getElementById("right-block-open");
+			blockOpenRemove.remove();
+			document.getElementById('region-main').classList.add('has-blocks');
+			document.getElementById('block-region-side-pre').classList.remove('collapse');
+		}
+	</script>
+	
+<!--------- End Working example manual close every page refresh --------->
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+<link type="text/css" rel="stylesheet" href="https://braddltu.github.io/LTU-dev/css/ltu-style-dev.css" id="oep-style" />
+<a id="right-block-toggle" class="btn" role="button" aria-label="Close"><i class="icon fa fa-times fa-fw" aria-hidden="true" onclick="addOpenBlock()"></i></a>
+<script>
+var oepStylesheet = document.querySelector('#oep-style');
+
+oepStylesheet.onload = function() {
+
+	var regionMainHasBlocks = document.getElementById("region-main").classList.contains('has-blocks');
+	
+	if (regionMainHasBlocks = "true"){
+		document.getElementById('region-main').classList.remove('has-blocks');
+	    document.getElementById('block-region-side-pre').classList.add('collapse');	
+		var blockOpen = document.createElement("div"); 
+		var blockOpenHtml = document.createElement("a");
+		var faIconHtml = document.createElement("i");
+		blockOpenHtml.href ="javascript:;";
+		blockOpenHtml.setAttribute("id", "right-block-open-btn");
+		blockOpen.setAttribute("id", "right-block-open");
+		faIconHtml.setAttribute("class", "fa fa-chevron-left");	
+		faIconHtml.setAttribute("aria-hidden", "true");
+		blockOpen.appendChild(blockOpenHtml); 
+		blockOpenHtml.appendChild(faIconHtml); 	
+	    document.getElementById("region-main").appendChild(blockOpen);
+		document.getElementById("right-block-open-btn").setAttribute("onclick", "removeOpenBlock();");
+		var closeButtonParent = document.getElementById("right-block-toggle").parentElement;
+		var closeButtonCardText = closeButtonParent.parentElement;
+		var closeButtonCardBody = closeButtonCardText.parentElement;
+		closeButtonCardBody.parentElement.classList.add('oep-dev-block');	
+		
+
+				
+	} else {
+		
+	}
+}
+
+oepStylesheet.onerror = function() {
+  console.log("An error occurred loading the stylesheet!");
+}
+
+function addOpenBlock() {
+		document.getElementById('region-main').classList.remove('has-blocks');
+	    document.getElementById('block-region-side-pre').classList.add('collapse');	
+		var blockOpen = document.createElement("div"); 
+		var blockOpenHtml = document.createElement("a");
+		var faIconHtml = document.createElement("i");
+		blockOpenHtml.href ="javascript:;";
+		blockOpenHtml.setAttribute("id", "right-block-open-btn");
+		blockOpen.setAttribute("id", "right-block-open");
+		faIconHtml.setAttribute("class", "fa fa-chevron-left");	
+		faIconHtml.setAttribute("aria-hidden", "true");
+		blockOpen.appendChild(blockOpenHtml); 
+		blockOpenHtml.appendChild(faIconHtml); 	
+	    document.getElementById("region-main").appendChild(blockOpen);
+		document.getElementById("right-block-open-btn").setAttribute("onclick", "removeOpenBlock();");
+		}
+function removeOpenBlock() {
+			var blockOpenRemove = document.getElementById("right-block-open");
+			blockOpenRemove.remove();
+			document.getElementById('region-main').classList.add('has-blocks');
+			document.getElementById('block-region-side-pre').classList.remove('collapse');
+		}
+</script>
+	
+	
+	
+</body>
+</html>

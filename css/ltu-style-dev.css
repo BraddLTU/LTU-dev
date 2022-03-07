@@ -164,6 +164,7 @@ position: absolute;
 
 #block-region-side-pre.close-drawer {
 right: calc(-315px + -10px);
+	position:fixed;
 }
 
 #block-region-side-pre.open-drawer {

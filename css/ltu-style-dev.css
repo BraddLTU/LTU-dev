@@ -165,10 +165,12 @@ position: absolute;
 #block-region-side-pre.close-drawer {
 right: calc(-315px + -10px);
 	position:fixed;
+	    transition: left 0.2s ease,right 0.2s ease,top 0.2s ease,bottom 0.2s ease;
 }
 
 #block-region-side-pre.open-drawer {
 right:0px;	
+transition: left 0.2s ease,right 0.2s ease,top 0.2s ease,bottom 0.2s ease;
 }
 
 #right-block-open-btn {

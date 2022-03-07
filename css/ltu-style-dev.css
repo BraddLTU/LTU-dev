@@ -161,14 +161,22 @@ position: absolute;
 }
 
 /********* Right Drawer Toggle  *******/
-#right-block-open {
+
+#block-region-side-pre.close-drawer {
+right: calc(-315px + -10px);
+}
+
+#block-region-side-pre.open-drawer {
+right:0px;	
+}
+
+#right-block-open-btn {
 	position:fixed;
 	top:270px;
 	right:0px;
 	background:#ccc;
 	z-index:9999;
 	border-radius:30px 0px 0px 30px;
-	padding:1rem;
 }
 
 .oep-dev-block {

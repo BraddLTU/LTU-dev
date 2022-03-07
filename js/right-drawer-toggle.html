@@ -124,9 +124,9 @@ function removeOpenBlock() {
 	
 	
 <link type="text/css" rel="stylesheet" href="https://braddltu.github.io/LTU-dev/css/ltu-style-dev.css" id="oep-style" />
-<a id="right-block-toggle" class="btn" role="button" aria-label="Close"><i class="icon fa fa-times fa-fw" aria-hidden="true" onclick="addOpenBlock()" data-toggle="tooltip" data-placement="left" title="" data-original-title="Close right blocks"></i></a>
+<button id="right-block-toggle" class="btn" role="button" aria-label="Close"><i class="icon fa fa-times fa-fw" aria-hidden="true" onclick="addOpenBlock()" data-toggle="tooltip" data-placement="left" title="" data-original-title="Close right blocks"></i></button>
 	
-<a id="right-block-toggle" class="btn" role="button" aria-label="Open"><i class="icon fa fa-chevron-left" aria-hidden="true" onclick="addOpenBlock()" data-toggle="tooltip" data-placement="left" title="" data-original-title="Close right blocks"></i></a>
+<button id="right-block-open-btn" class="btn collapse show" role="button" aria-label="Open"><i class="icon fa fa-chevron-left" aria-hidden="true" onclick="removeOpenBlock()" data-toggle="tooltip" data-placement="left" title="" data-original-title="Open right blocks"></i></button>
 	
 <script>
 var oepStylesheet = document.querySelector('#oep-style');
@@ -138,21 +138,8 @@ var intFrameWidth = window.innerWidth;
 	
 	if (regionMainHasBlocks = "true" && intFrameWidth > 1199){
 		document.getElementById('region-main').classList.remove('has-blocks');
-	    document.getElementById('block-region-side-pre').classList.add('collapse');	
-		var blockOpen = document.createElement("div"); 
-		var blockOpenHtml = document.createElement("a");
-		var faIconHtml = document.createElement("i");
-		blockOpenHtml.setAttribute("id", "right-block-open-btn");
-		blockOpen.setAttribute("id", "right-block-open");
-		blockOpenHtml.setAttribute("class", "btn");
-		blockOpenHtml.setAttribute("role", "button");
-		blockOpenHtml.setAttribute("aria-label", "Open");
-		faIconHtml.setAttribute("class", "fa fa-chevron-left");	
-		faIconHtml.setAttribute("aria-hidden", "true");
-		blockOpen.appendChild(blockOpenHtml); 
-		blockOpenHtml.appendChild(faIconHtml); 	
-	    document.getElementById("region-main").appendChild(blockOpen);
-		faIconHtml.setAttribute("onclick", "removeOpenBlock();");
+	    document.getElementById('block-region-side-pre').classList.add('close-drawer');	
+		document.getElementById('right-block-open-btn').classList.add('show');
 		var closeButtonParent = document.getElementById("right-block-toggle").parentElement;
 		var closeButtonCardText = closeButtonParent.parentElement;
 		var closeButtonCardBody = closeButtonCardText.parentElement;
@@ -171,27 +158,18 @@ oepStylesheet.onerror = function() {
 
 function addOpenBlock() {
 		document.getElementById('region-main').classList.remove('has-blocks');
-	    document.getElementById('block-region-side-pre').classList.add('collapse');	
-		var blockOpen = document.createElement("div"); 
-		var blockOpenHtml = document.createElement("a");
-		var faIconHtml = document.createElement("i");
-		blockOpenHtml.setAttribute("id", "right-block-open-btn");
-		blockOpen.setAttribute("id", "right-block-open");
-	    blockOpenHtml.setAttribute("class", "btn");
-		blockOpenHtml.setAttribute("role", "button");
-		blockOpenHtml.setAttribute("aria-label", "Open");
-		faIconHtml.setAttribute("class", "fa fa-chevron-left");	
-		faIconHtml.setAttribute("aria-hidden", "true");
-		blockOpen.appendChild(blockOpenHtml); 
-		blockOpenHtml.appendChild(faIconHtml); 	
-	    document.getElementById("region-main").appendChild(blockOpen);
-		faIconHtml.setAttribute("onclick", "removeOpenBlock();");
+	    document.getElementById('block-region-side-pre').classList.add('close-drawer');	
+		document.getElementById('right-block-open-btn').classList.add('show');	
+		var closeButtonParent = document.getElementById("right-block-toggle").parentElement;
+		var closeButtonCardText = closeButtonParent.parentElement;
+		var closeButtonCardBody = closeButtonCardText.parentElement;
+		closeButtonCardBody.parentElement.classList.add('oep-dev-block');
 		}
 function removeOpenBlock() {
-			var blockOpenRemove = document.getElementById("right-block-open");
-			blockOpenRemove.remove();
+			document.getElementById('right-block-open-btn').classList.remove('show');	
+			document.getElementById('block-region-side-pre').classList.remove('close-drawer');
 			document.getElementById('region-main').classList.add('has-blocks');
-			document.getElementById('block-region-side-pre').classList.remove('collapse');
+
 		}
 </script>
 	

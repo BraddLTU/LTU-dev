@@ -54,10 +54,11 @@
 var oepStylesheet = document.querySelector('#oep-style');
 
 oepStylesheet.onload = function() {
-
+var intFrameWidth = window.innerWidth;
 	var regionMainHasBlocks = document.getElementById("region-main").classList.contains('has-blocks');
 	
-	if (regionMainHasBlocks = "true"){
+	
+	if (regionMainHasBlocks = "true" && intFrameWidth > 1199){
 		document.getElementById('region-main').classList.remove('has-blocks');
 	    document.getElementById('block-region-side-pre').classList.add('collapse');	
 		var blockOpen = document.createElement("div"); 

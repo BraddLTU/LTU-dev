@@ -88,6 +88,11 @@
           <option name="submit" value="icontext" />
         </options>
       </optiongroup>
+      <optiongroup name="courseOptions">
+        <options>
+          <option name="thumbnailEnabled" value="false" />
+        </options>
+      </optiongroup>
     </optiongroups>
   </control_options>
   <control_layouts>

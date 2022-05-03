@@ -204,7 +204,7 @@ padding:0px !important;
 }
 
 /********* Dynamic ontent  *******/
-#page-grade-report-user-index .user-grade:before {
+#page-grade-report-user-index #user-notifications:before {
 	content: "Foo bar!";
 }
 

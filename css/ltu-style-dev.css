@@ -204,7 +204,7 @@ padding:0px !important;
 }
 
 /********* Dynamic ontent  *******/
-#page-grade-report-user-index #user-notifications:before {
-	content: "Foo bar!";
+#page-grade-report-user-index .view_users_selector:after {
+	content: "All results for assessments, including examination results, are recorded in Gradebook. Students are advised that all marks reported in Gradebook are subject to moderation processes.";
 }
 

@@ -6,4 +6,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
     text = "You canceled!";
   }
   console.log(text);
-}
+});
